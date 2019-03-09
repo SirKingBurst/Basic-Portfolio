@@ -20,6 +20,13 @@ nav {
 .Links {
     float: right;
     text-align: center;
-    
 
+
+}
+
+.Picture {
+    height: 30%;
+    width: auto;
+    object-fit: contain;
+    
 }
