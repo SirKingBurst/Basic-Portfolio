@@ -1,36 +1,102 @@
 body {
-    background-color: #777777;
-    text-align: left;
-
+    background-image: url(../images/fancy-cushion.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
 }
 
 nav {
     background-color: #ffffff;
     height: 5%;
-    padding: 20px;
+    padding: 10px;
+    margin: -10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom-color: #cccccc;
+    border-style: solid;
+    border-width: 2px;
+    padding-inline-start: 285px;
 }
 
 .name-background {
     background-color: #4aaaa5;
     color: #ffffff;
     display: inline;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;   
 }
 
 .Links {
     float: right;
-    text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
-
 }
 
+.individual-links {
+    color: #777777;
+}
+
+.about-me {
+    color: #4aaaa5;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%
+}
+
+.hr-style {
+    width: 90%;
+}
+
+
 .Picture {
-    height: 40%;
+    height: 30%;
     width: auto;
     object-fit: contain;
     box-align: left;
-    
+    margin-top: 5%;
+    padding-left: 5%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 2.5%;    
+}
+
+.paragraph {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 2px;
+    width: 960px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    color: #777777;
+    margin-top: 2%;
+}
+
+.about-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 30px;
+}
+
+.portfolio-item1 {
+    padding-left: 5%;
+    background-image: url('../images/hangman.jpg');
+    width: 500px;
+    height: 500px;
+}
+
+.form-style {
+    padding-left: 5%;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    background-color: #666666;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 5%;
 }
