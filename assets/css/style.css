@@ -1,19 +1,20 @@
 body {
     background-color: #777777;
+    text-align: left;
 
 }
 
 nav {
     background-color: #ffffff;
     height: 5%;
-    padding: 20;
+    padding: 20px;
 }
 
 .name-background {
     background-color: #4aaaa5;
     color: #ffffff;
     display: inline;
-    padding: 20;
+    padding: 20px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -30,5 +31,6 @@ nav {
     height: 40%;
     width: auto;
     object-fit: contain;
+    box-align: left;
     
 }
